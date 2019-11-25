@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Create Project</title>
+<link rel="stylesheet" type="text/css" href="../css/reportsPage.css">
+</head>
+<body>
+    
+    <header>
+        <img id="logo" src="../images/lightbulb.png" alt="log">
+        <p id="name"> Project Lumen</p>
+        <!--<div id="selections">-->
+            <!--<img src="images/search-icon.png" alt="Mountains" class="topR" >-->
+            <!--<img src="images/notif.png" alt="Notification" class="topR">-->
+            <!--<img src="images/profile.png" alt="User Profile" class="topR">-->
+        <!--</div>-->
+        </header>
+        <div class="topR">
+          <h1> Carbon Credit Management System Reports</h1> 
+          <br><button><a th:href="@{/user/myReports}">View Reports</a></button>&nbsp;&nbsp;
+          <button><a href="home.html">Generate Reports</a></button> &nbsp;&nbsp;
+          <button><a href="home.html">Project Timeline</a></button> &nbsp;&nbsp;
+          <button><a th:href="@{/user/myOverdue}">Overdue Projects</a></button> &nbsp;&nbsp;
+           </div>
+   <div id="myMain">
+       <h2>Project Timeline Report</h2>
+       <h3>Number of Days in each step</h3>
+       <table>
+          <tr>
+          <th>Project Name:</th>
+          <th>Local Approval:</th>
+          <th>National Approval:</th>
+          <th>CDM Board Approval:</th>
+          <th>3rd Party Approval:</th>
+          </tr>
+          <tr>
+              <td>Project 101</td>
+              <td>5</td>
+              <td>10</td>
+              <td>5</td>
+              <td>14</td>
+          </tr>
+          <tr>
+              <td>Project 102</td>
+              <td>5</td>
+              <td>7</td>
+              <td>12</td>
+              <td>10</td>
+          </tr>
+          <tr>
+              <td>Project 103</td>
+              <td>7</td>
+              <td>5</td>
+              <td>11</td>
+              <td>10</td>
+          </tr>
+      </table>
+</div>
+
+<footer>
+        <a class="foot" href="">Email </a>
+        <a class="foot" href="">Feedback </a>
+        <a class="foot" href="">Contact us!</a>
+</footer>
+</body>
+</html>

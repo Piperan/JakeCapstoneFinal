@@ -1,0 +1,76 @@
+#logo{
+    width:2.5%;
+    height: 2.5%;
+    float: left;
+   
+}
+header{
+    background-color: lightgreen;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+ }
+ #name{
+    position: relative;
+    font-family:  Impact;
+    font-size: 1.5em;
+    margin-top: 1.2%;
+
+}
+#myMain{
+    clear:both;
+    margin: auto;
+    text-align: center;
+    width:80%;
+    margin-top: 5%;
+    padding:2%;
+    background-color: #B3FFBE;
+}
+h2{
+    text-align: center;
+    font-family: Cambria;
+}
+footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 4%;
+   background-color: lightgreen;
+   text-align: right;
+}
+
+.foot{
+font-size: 1.5em;
+font-family: 'Times New Roman', Times, serif;
+margin-right: 2%;
+}
+table, td, th {  
+    font-family: 'Times New Roman';
+
+  }
+
+  button{
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 1.5em;
+      width: 35%;
+      height: 30%;
+  }
+  
+  table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #B2BFBB;
+    width: 25%;
+    height: 30%;
+}
+.topR{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}

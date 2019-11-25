@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<meta charset="ISO-8859-1">
+<title>Home Page</title>
+<link rel="stylesheet" type="text/css" href="css/homePage.css">
+</head>
+<body>
+    
+    <header>
+        <img id="logo" src="images/lightbulb.png" alt="log">
+        <p id="name"> Project Lumen</p>
+        <!--<div id="selections">-->
+            <!--<img src="images/search-icon.png" alt="Mountains" class="topR" >-->
+            <!--<img src="images/notif.png" alt="Notification" class="topR">-->
+            <!--<img src="images/profile.png" alt="User Profile" class="topR">-->
+        <!--</div>-->
+        </header>
+   <div id="myMain">
+    <button><a th:href="@{/user/create}">Create Project</a></button>&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button><a th:href="@{/user/reports}">Reports</a></button>
+</div>
+<div class="myTables">
+<h2> My Projects</h2>
+<table>
+    <tr>
+    <th>Project Name:</th>
+    <th>Project Status:</th>
+    <th>Project Progress:</th>
+    </tr>
+    <tr>
+            <td><a th:href="@{/user/projectPage}">Project 101</a></td>
+            <td>Local Approval</td>
+            <td>45%</td>
+    </tr>
+    <tr>
+            <td><a th:href="@{/user/projectPage}">Project 102</a></td>
+            <td>Project Creation</td>
+            <td>2%</td>
+    </tr>
+    <tr>
+            <td><a th:href="@{/user/projectPage}">Project 103</a></td>
+            <td>National Approval</td>
+            <td>55%</td>
+    </tr>
+</table>
+</div>
+<footer>
+        <a class="foot" href="">Email </a>
+        <a class="foot" href="">Feedback </a>
+        <a class="foot" href="">Contact us!</a>
+</footer>
+</body>
+</html>

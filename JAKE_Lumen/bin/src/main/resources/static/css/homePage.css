@@ -1,0 +1,68 @@
+#logo{
+    width:2.5%;
+    height: 2.5%;
+    float: left;
+   
+}
+header{
+    background-color: lightgreen;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+ }
+ #name{
+    position: relative;
+    font-family:  Impact;
+    font-size: 1.5em;
+    margin-top: 1.2%;
+
+}
+#myMain{
+    clear:both;
+    margin: auto;
+    text-align: center;
+    margin-top: 8%;
+    background-color: rgba(255,255,255, 0.7);
+}
+
+footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 4%;
+   background-color: lightgreen;
+   text-align: right;
+}
+
+.foot{
+font-size: 1.5em;
+font-family: 'Times New Roman', Times, serif;
+margin-right: 2%;
+}
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+  .myTables{
+      margin: 2%;
+      padding:2%;
+  }
+  button{
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 1.5em;
+      width: 35%;
+      height: 30%;
+  }
+  
+  
